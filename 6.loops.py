@@ -23,7 +23,18 @@
 #         break
 #     g -= 1
 
-# самостоятельно цикл континиум посмотреть
+# самостоятельно цикл континум(continue) посмотреть
+j = 0
+while j < 17:
+    if j == 3:
+        print("continue")
+        j +=2
+        continue
+    print("Hello")
+    j += 2
+
+
+
 
 # Оператор цикла for
 
@@ -45,7 +56,7 @@ my_list = [10, 20, 30, 40, 50]
 # создание списка чисел  в диапазоне от 10 до 100 с шагом 10
 num_list = [num * 2 for num in range(10, 100, 10)]
 
-print(num_list)
+# print(num_list)
 
 
 
